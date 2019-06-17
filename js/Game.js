@@ -51,7 +51,7 @@ if (this.missed === 5) {
 gameOver(gameWon) {
     const gameOverMessage = document.getElementById('game-over-message');
     const overLay = document.getElementById('overlay');
-    if (gameWon === true) {da
+    if (gameWon === true) {
       gameOverMessage.innerHTML = "Great job, you win!";
       overLay.className = "win";
       overLay.style.visibility = 'visible';
